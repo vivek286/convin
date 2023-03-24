@@ -1,0 +1,18 @@
+.dashboard-container {
+    width: 90vw;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.dashboard-container .cards-container {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ant-card {
+    align-self: flex-start;
+}

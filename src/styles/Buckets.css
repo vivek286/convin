@@ -1,0 +1,24 @@
+.buckets-container  {
+    width: 90vw;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.each-bucket {
+    width: 100%;
+    border-radius: 15px;
+    height: 50px;
+    background: linear-gradient(0deg, rgb(238, 238, 238) 0%, rgba(255,255,255,1) 100%);
+    box-shadow: -2px -2px 5px white, 2px 2px 5px rgb(201, 201, 201);
+    outline: 1px solid rgb(240, 240, 240);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    padding-left: 20px;
+}
